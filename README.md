@@ -1,4 +1,4 @@
-# Weather-APP-
+# Weather-APP
 Homepage 
 ![image](https://github.com/bhaavvya/Weather-APP-/assets/110487270/e6648f9b-cc64-4df2-9a84-6787c1da5f31)
 Weather Page
