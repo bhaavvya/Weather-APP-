@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap" rel="stylesheet">
+<title>WEATHER360</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+      <div class="container-fluid">
+      <nav class="navbar  navbar-expand-md" id="main_nav" aria-label="Second navbar example">
+        <div class="container-fluid ">
+            <!-- <a class="navbar-brand" href="index.php" style="color: white; font-weight: 500; font-size: xx-large;">
+                <img src="images/logo.png" alt="Logo" height="50vh" class="d-inline-block"
+                    style="padding-right:0vh ; padding-bottom: 0.1em; margin: 0px,0px,0px,0px;">
+
+                <h2
+                    style="display: inline; font-family: 'Sulphur Point', sans-serif; font-size: larger; font-weight: bold;">
+                    RFiT</h2>
+            </a> -->
+            <a class="navbar-brand" href="/" style="font-size: 54px;
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                background-image: linear-gradient(to right, #2d40e8, #146e14);
+              ">
+                <img src="/images/logo.png" alt="Logo" width="120" height="114" class="d-inline-block align-text-top">
+                WEATHER360
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#horizontalNavbar" aria-controls="navbarsExample02" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="function1()"></span>
+            </button>
+            <div class="collapse navbar-collapse show justify-content-end" style="font-size: 30px;color: #00ff00;.nav-link{color: #00ff00;}" id="side1">
+                <ul class="navbar-nav text-nowrap d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/weather">Weather</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+</div>
+<br><br>
+<div class="container-fluid" id="mainarea">
+    <div class="images2">
+        <img src="/images/diff_seasons.svg" alt="choose city" width="550rem" height="370rem">
+    </div>
+    
+    <div class="texti">
+        <div class="input-group mb-3">
+            <input type="text" id="textbox" class="form-control" placeholder="Enter city name here.">
+            <button class="btn btn-outline-secondary" type="button" id="buttonaddon2">Search</button>
+        </div>
+        <div class="tempinfo">
+            <div class="top_layer">
+                <p id="todaydate"></p>
+            </div><div class="hr" style="color: #2d40e8 5px;"><hr></div>
+            <div class="main_layer">
+                <p id="city_name">Get Output Here.</p>
+                
+                <div class="middle_layer data_hide">
+                    <p id="temp"><span></span></p>&nbsp;
+                    <p id="temp_status"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Made with ❤️ by Bhavya Verma</p>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
